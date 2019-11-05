@@ -6,7 +6,7 @@ server {
 	listen 80;
 	listen [::]:80;
 
-	server_name time2.mgrathena.info;
+	server_name time1.mgrathena.info;
 
 	location / {
 		proxy_pass http://time1_app;
